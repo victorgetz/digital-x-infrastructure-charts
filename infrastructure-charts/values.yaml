@@ -54,7 +54,7 @@ charts:
     targetRevision: 7.17.4
     adminDomain: "admin.{{.Values.projectValues.rootDomain}}"
     parameters:
-      elasticsearch.replicas: 1
+      elasticsearch.replicas: "1"
   kasm:
     namespace: kasm
     targetRevision: 0.1.1
