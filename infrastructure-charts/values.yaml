@@ -50,7 +50,7 @@ charts:
     namespace: admin
     targetRevision: 1.2.3
   elastic-stack:
-    namespace: elastic
+    namespace: monitoring
     targetRevision: 7.17.4
     adminDomain: "admin.{{.Values.projectValues.rootDomain}}"
     parameters:
