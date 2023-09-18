@@ -44,14 +44,14 @@ charts:
       "kafka.replicaCount": "1"
   akhq:
     namespace: kafka
-    targetRevision: 0.24.0
+    targetRevision: 1.0.0
   # Override values with local values file
   iits-admin-dashboard-nginx:
     namespace: admin
     targetRevision: 1.2.3
   elastic-stack:
     namespace: monitoring
-    targetRevision: 7.17.3-otc-volumes
+    targetRevision: 7.17.4
     adminDomain: "admin.{{.Values.projectValues.rootDomain}}"
     parameters:
       elasticsearch.replicas: 1
