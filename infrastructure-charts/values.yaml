@@ -46,9 +46,9 @@ charts:
     namespace: kafka
     targetRevision: 0.24.0
   # Override values with local values file
-  iits-admin-dashboard:
+  iits-admin-dashboard-nginx:
     namespace: admin
-    targetRevision: 1.2.1
+    targetRevision: 1.2.3
   elastic-stack:
     namespace: monitoring
     targetRevision: 7.17.3-otc-volumes
