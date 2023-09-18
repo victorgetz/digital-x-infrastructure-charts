@@ -53,6 +53,8 @@ charts:
     namespace: monitoring
     targetRevision: 7.17.3-otc-volumes
     adminDomain: "admin.{{.Values.projectValues.rootDomain}}"
+    parameters:
+      elasticsearch.replicas: 1
   kasm:
     namespace: kasm
     targetRevision: 0.1.1
