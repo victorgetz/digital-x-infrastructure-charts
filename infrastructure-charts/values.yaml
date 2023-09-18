@@ -49,13 +49,13 @@ charts:
   iits-admin-dashboard:
     namespace: admin
     targetRevision: 1.2.1
+  elastic-stack:
+    namespace: monitoring
+    adminDomain: "admin.{{.Values.projectValues.rootDomain}}"
+
   kasm:
     namespace: kasm
     targetRevision: "0.1.1"
     parameters:
       services.firstuser.extraEnv.VNC_PW: "6upWDZ2DQwsmz,S%Eys,qmfE9GlpwuQy"
       services.firstuser.ingressRoute.domain: "firstuser.{{.Values.projectValues.rootDomain}}"
-  otc-nextcloud:
-    targetRevision: "0.1.0"
-    parameters:
-      ingressRoute.domain: "nextcloud.{{.Values.projectValues.rootDomain}}"
