@@ -51,7 +51,7 @@ charts:
     targetRevision: 1.2.1
   elastic-stack:
     namespace: monitoring
-    targetRevision: 7.17.3
+    targetRevision: 7.17.3-otc-volumes
     adminDomain: "admin.{{.Values.projectValues.rootDomain}}"
   kasm:
     namespace: kasm
