@@ -59,13 +59,3 @@ charts:
     targetRevision: "0.1.0"
     parameters:
       ingressRoute.domain: "nextcloud.{{.Values.projectValues.rootDomain}}"
-
-      nextcloud.externalDatabase.password: "REPLACE_ME"
-      nextcloud.externalDatabase.host: "REPLACE_ME"
-      nextcloud.externalDatabase.user: "REPLACE_ME"
-      nextcloud.externalDatabase.port: "REPLACE_ME"
-
-      nextcloudStorage.s3.S3_BUCKET_NAME: "REPLACE_ME"
-      nextcloudStorage.s3.S3_PUBLIC_KEY: "REPLACE_ME"
-      nextcloudStorage.s3.S3_SECRET_KEY: "REPLACE_ME"
-      nextcloudStorage.s3.S3_BUCKET_URL: "REPLACE_ME"
